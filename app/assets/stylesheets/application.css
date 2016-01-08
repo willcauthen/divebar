@@ -12,4 +12,24 @@
  *
  *= require_tree .
  *= require_self
+ *= require base
+ *= require layout
+ *= require skeleton
+ *= require normalize
  */
+body {
+	background: black;
+	color: white;
+}
+.logo {
+	width: 216px;
+	height: 330px;
+}
+
+.navbar {
+	position: fixed;
+	padding: 50px;
+}
+.content {
+	padding-left: 150px;
+}
