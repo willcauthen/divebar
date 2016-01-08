@@ -33,3 +33,11 @@ body {
 .content {
 	padding-left: 150px;
 }
+.directory {
+	position: fixed;
+	margin: 0 auto;
+	bottom: 0;
+	padding-left: 100px;
+	padding-right: 100px;
+	background: black;
+}
