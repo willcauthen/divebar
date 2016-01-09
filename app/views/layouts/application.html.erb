@@ -35,12 +35,24 @@
 
 <div class="container directory">
 	<div class="row">
-		<div class="two columns">HOME</div>
-		<div class="two columns">CALENDAR</div>
-		<div class="two columns">BOOKING</div>
-		<div class="two columns">POLICIES</div>
-		<div class="two columns">PHOTOS</div>
-		<div class="two columns">MAP</div>
+		<div class="two columns">
+			<%= link_to "HOME", root_path %> 
+		</div>
+		<div class="two columns">
+			<%= link_to "CALENDAR", calendar_path %>
+		</div>
+		<div class="two columns">
+			<%= link_to "BOOKING", booking_path %>
+		</div>
+		<div class="two columns">
+			<%= link_to "POLICIES", policies_path %>
+		</div>
+		<div class="two columns">
+			<%= link_to "PHOTOS", photos_path %>
+		</div>
+		<div class="two columns">
+			<%= link_to "MAP", map_path %>
+		</div>
 	</div>
 </div>
 </body>

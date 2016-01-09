@@ -1,5 +1,15 @@
 Rails.application.routes.draw do
   root to: "welcome#index"
+
+  get "/calendar", to: "calendar#index"
+
+  get "/booking", to: "booking#index"
+
+  get "/policies", to: "policies#index"
+
+  get "/photos", to: "photos#index"
+
+  get "/map", to: "map#index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
