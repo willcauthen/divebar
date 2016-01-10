@@ -17,6 +17,14 @@
  *= require skeleton
  *= require normalize
  */
+.signature {
+	text-align: right;
+}
+.signature strong {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 25px;
+}
+
 body {
 	background: black;
 	color: white;
