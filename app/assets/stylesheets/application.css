@@ -21,6 +21,13 @@ body {
 	background: black;
 	color: white;
 }
+b {
+	color: #FF00FF;
+}
+
+strong {
+	color: #FF0000;
+}
 .logo {
 	width: 216px;
 	height: 330px;
